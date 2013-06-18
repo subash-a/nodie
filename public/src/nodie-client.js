@@ -1,4 +1,4 @@
-var socket = io.connect("http://nodie.s_bash.c9.io");
+var socket = io.connect("http://damp-hollows-6475.herokuapp.com");
 var username;
 socket.on('connectionsuccess',getUsername);
 socket.on("messagereceived",displayMessage);
