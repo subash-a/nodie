@@ -1,0 +1,77 @@
+ul{
+    padding:0px 0px 0px 0px;   
+}
+
+.msg-element{
+    width:85%;
+    display:inline-block;
+    padding:1%;
+    font:1em Arial;
+    background:rgb(240,240,240);
+}
+
+.msg-sndr-name{
+    width:5%;
+    display:inline-block;
+    padding:1%;
+    font: 1em Arial bold;
+    background:rgb(200,200,200);
+}
+
+.msg-container{
+    margin:0.5%;
+    list-style:none;
+}
+
+#inp-node{
+    clear:both;
+}
+
+.l-float{
+    float:left;
+}
+
+.r-float{
+    float:right;
+}
+
+.cls{
+    clear:both;
+}
+
+.t-over{
+    text-decoration:overline;
+}
+
+.u-name{
+    font:1em Arial bold;
+    padding:5%;
+    margin:0.5%;
+}
+
+#usrs-box {
+    height:200px;
+    overflow-y:auto;
+    list-style:none;
+}
+
+#msg-node{
+    height:200px;
+    overflow-y:auto;
+    list-style:none;
+}
+
+.names-box{
+    width:24%;
+}
+
+.msgs-box{
+    width:74%;
+}
+
+.goodbye-msg{
+    text-align: center;
+    padding: 10%;
+    font: 2em Arial bold;
+    color: rgb(200,200,200);
+}
